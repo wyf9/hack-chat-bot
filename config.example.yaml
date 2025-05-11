@@ -1,0 +1,13 @@
+# 配置示例
+# 清保存到 config.yaml
+
+server: "wss://hack.chat/chat-ws" # [选填] 服务器地址，可使用 反代 / 自部署 / 不设置 (使用官方地址)
+# 官方地址: wss://hack.chat/chat-ws
+clients: # 客户端列表
+  - nick: "test-bot-1" # [必填] 昵称
+    channel: "kt1j8rpc" # [必填] 频道 id (不包括 ?)
+    password: null # [必填] (如无密码则设置为 null)
+  # 还可添加更多
+  # - nick: "test-bot-2"
+  #   channel: "abcdefgh"
+  #   password: null
